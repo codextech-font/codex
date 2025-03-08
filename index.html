@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home - Codex Tech Foundation</title>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="invest.html">Investment Opportunities</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="reset-password.html">Reset Password</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="admin-management.html">Admin Management</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        // Track visitor on page load
+        fetch('http://localhost:3000/api/track-visitor', {
+            method: 'POST'
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Codex Tech Foundation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="invest.html">Investment Opportunities</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Learn more about our mission and vision.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Codex Tech Foundation</p>
+    </footer>
+</body>
+</html>

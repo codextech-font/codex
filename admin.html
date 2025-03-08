@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard - Codex Tech Foundation</title>
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="invest.html">Investment Opportunities</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Visitor Statistics</h2>
+            <p>Total Visitors: <span id="total-visitors">0</span></p>
+            <p>Total Subscribers: <span id="total-subscribers">0</span></p>
+        </section>
+        <section>
+            <h2>Recent Subscribers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Subscription Date</th>
+                    </tr>
+                </thead>
+                <tbody id="subscriber-list">
+                    <!-- Recent subscribers will be populated here -->
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Analytics Overview</h2>
+            <p>Page Views: <span id="page-views">0</span></p>
+            <p>Unique Visitors: <span id="unique-visitors">0</span></p>
+        </section>
+        <section>
+            <h2>User Feedback</h2>
+            <p>Feedback received from users will be displayed here.</p>
+            <ul id="feedback-list">
+                <!-- User feedback will be populated here -->
+            </ul>
+        </section>
+        <section>
+            <h2>Export Data</h2>
+            <button id="export-button">Export Subscribers to CSV</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Codex Tech Foundation</p>
+    </footer>
+    <script src="admin.js"></script>
+</body>
+</html>
